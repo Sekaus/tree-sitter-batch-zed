@@ -1,0 +1,40 @@
+{
+  "name": "tree-sitter-batch",
+  "version": "0.11.1",
+  "description": "A Windows Batch/CMD grammar for tree-sitter",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wharflab/tree-sitter-batch.git"
+  },
+  "license": "MIT",
+  "main": "bindings/node",
+  "types": "bindings/node",
+  "keywords": [
+    "incremental",
+    "parsing",
+    "tree-sitter",
+    "batch",
+    "cmd",
+    "bat"
+  ],
+  "files": [
+    "grammar.js",
+    "tree-sitter.json",
+    "*.wasm"
+  ],
+  "overrides": {
+    "eslint-plugin-jsdoc": "^63.0.0"
+  },
+  "peerDependencies": {
+    "tree-sitter": ">=0.25.0"
+  },
+  "peerDependenciesMeta": {
+    "tree-sitter": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "lint": "eslint grammar.js"
+  }
+}
