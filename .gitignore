@@ -42,7 +42,6 @@ zig-out/
 /examples/*/
 
 # Grammar volatiles
-*.wasm
 *.obj
 *.o
 
