@@ -1,5 +1,0 @@
-{
-  "name": "tree-sitter-batch",
-  "version": "0.0.0",
-  "main": "grammar.js"
-}
