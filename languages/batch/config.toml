@@ -1,0 +1,3 @@
+name = "Batch"
+grammar = "batch"
+path_suffixes = ["bat", "cmd"]
